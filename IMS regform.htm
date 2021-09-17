@@ -1,0 +1,147 @@
+<html>
+<link rel="shortcut icon" type="image/png" href="favicon/favicon_io/favicon-16x16.png">
+
+<head>
+
+    <title>Forms</title>
+</head>
+
+<body style="background-image:url(img/abstract.jpg); background-size: 100% 100%;">
+    
+
+    <center><span>
+            <h1 style="background-color:rgb(98, 128, 220); color:whitesmoke"> Registration Form</h1>
+        </span>
+        
+           </center>
+           <center> 
+
+            <style>
+            table.roundedCorners { 
+              border-radius: 13px; 
+              }
+            </style>
+
+        <span>
+        <form action="file3.html" method="POST" name="myform">            
+                <table class="roundedcorners" cellspacing="" cellpadding="10"
+                    style="background-image: url(img/gradient_2.jpg);background-size : 100% 100% ;" width="500"  >
+
+                    
+                    <tr>
+                        <td align="center">
+                            <span>
+                                <img src="favicon/favicon_io2/android-chrome-192x192.png" alt="I.m.s"></span>
+                                <span>
+                                    <h2 style="color: aliceblue;">
+                            Imaginary mate school
+                                    </h2></span>
+                        </td>
+                    </tr>
+                    <tr>
+                    
+                        <td style="color: aliceblue;"><label for="fname">Enter your first name: </label></td>
+                        <td> <input type="text" name="fname" placeholder="first name"></td>
+                    </tr><br>
+                    <tr style="color: aliceblue;">
+                        <td> <label for="lname">Enter your last name: </label></td>
+                        <td><input type="text" name="lname" id="lname" placeholder="last name"></td>
+
+                    </tr><br><br>
+
+                    <tr style="color: aliceblue;">
+                        <td><label for="e-mail">Email: </td>
+                        <td>
+                            <input type="email" name="email" id="e-mail" placeholder="enter your email here...">
+                        </td>
+                        </label></td>
+                    </tr><br><br>
+
+                    <tr style="color: aliceblue;">
+
+                        <td><label for="pwd">password(8 characters minimum)</td>
+
+                        <td>
+                            <input type="password" name="pwd" id="pwd" minlength="8" required
+                                placeholder="********"></label>
+                        </td>
+                    </tr>
+
+                    <tr style="color: aliceblue;">
+                        <td><label for="txt">Explain why you want to join?</td>
+                        <td><textarea name="textarea" cols="30" rows="10" placeholder="enter the text here......"
+                                id="txt"></textarea>
+                            </label></td>
+                    </tr><br><br>
+
+                    <tr style="color: aliceblue;">
+                        <td>Select your subjets:</td>
+                        <td><label for="M">
+                                <input type="checkbox" name="maths" id="M">maths
+                            </label>
+                            <label for="E">
+                                <input type="checkbox" name="English" id="E">English
+                            </label>
+                            <label for="Bio">
+                                <input type="checkbox" name="Biology" id="Bio">Biology
+                            </label>
+                            <label for="com">
+                                <input type="checkbox" name="commerce" id="com">commerce
+                            </label>
+                            <label for="bus">
+                                <input type="checkbox" name="BussinesStudies" id="bus">BussinesStudies
+                            </label>
+                            <label for="chem">
+                                <input type="checkbox" name="Chemistry" id="chem">Chemistry
+                            </label>
+                            <label for="phy">
+                                <input type="checkbox" name="Physics" id="phy">Physics
+                            </label>
+                            <label for="cs">
+                                <input type="checkbox" name="Computer Science" id="cs">Computer Science
+                            </label>
+                        </td>
+                    </tr><br><br>
+                    <tr style="color: aliceblue;">
+                        <td>
+                            
+                                <label for="g">Gender:</td>
+                                    <td><label for="gender1">
+                                   <input type="radio" name="radio" value="male" id="gender1">male</label>
+                                    
+                                <label for="gender2">
+                                    <input type="radio" name="radio" value="female" id="gender2">female
+                                </label>
+                        </td>
+                    </tr>
+                    <tr style="color: aliceblue;">
+                        <td>
+                            Select your branch:</td><td>
+                            <select name="select">
+                                <option value="Cse">CSE</option>
+                                <option value="it">IT</option>
+                                <option value="ai">AI</option>
+                            </select><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit" value="submit">
+                        </td>
+
+
+                        <td>
+                            <input type="reset" name="rstbtn" value="reset">
+                        </td>
+                        <td>
+                            <input type="button" name="btn" value="Click me">
+                        </td>
+                    </tr>
+        </form>
+
+        </table></span>
+
+
+</body>
+
+</html>
